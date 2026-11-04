@@ -3,7 +3,7 @@
 
 # Wood Powder / Chips
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "@id": "https://data.incensehub.org/entities/wood-powder/#entity", "termCode": "wood-powder", "name": "Wood Powder / Chips", "description": "Ground aromatic wood — sandalwood (檀香) or agarwood (沉香) powder or chips — is the loose pure-material form that is heated rather than burned to release scent.", "url": "https://data.incensehub.org/entities/wood-powder/", "additionalProperty": [{"@type": "PropertyValue", "name": "Type", "value": "aromatic material (loose wood)"}, {"@type": "PropertyValue", "name": "Source", "value": "ground sandalwood (Santalum album) or agarwood (Aquilaria) wood"}, {"@type": "PropertyValue", "name": "Processing", "value": "ground into powder or cut into chips"}, {"@type": "PropertyValue", "name": "Physical characteristics", "value": "loose powder or chips"}, {"@type": "PropertyValue", "name": "Aroma", "value": "slow, complex aroma as it warms"}, {"@type": "PropertyValue", "name": "Burning behavior", "value": "smolders / warms rather than melts; heated indirectly (electric heater or 隔火焚香) for minimal smoke"}, {"@type": "PropertyValue", "name": "Applications", "value": "pure-material scent via heating on charcoal or an electric heater; seal-pattern (篆香) powder"}], "citation": [{"type": "editorial_interpretation", "title": "LanDeng editorial definition — material taxonomy (no external citation).", "url": "https://data.incensehub.org/materials/", "accessed": "2026-09-28", "evidenceLevel": "Tier 6 — Editorial synthesis"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "@id": "https://data.incensehub.org/entities/wood-powder/#entity", "termCode": "wood-powder", "name": "Wood Powder / Chips", "description": "Ground aromatic wood — sandalwood (檀香) or agarwood (沉香) powder or chips — is the loose pure-material form that is heated rather than burned to release scent.", "url": "https://data.incensehub.org/entities/wood-powder/", "additionalProperty": [{"@type": "PropertyValue", "name": "Type", "value": "aromatic material (loose wood)"}, {"@type": "PropertyValue", "name": "Source", "value": "ground sandalwood (Santalum album) or agarwood (Aquilaria) wood"}, {"@type": "PropertyValue", "name": "Processing", "value": "ground into powder or cut into chips"}, {"@type": "PropertyValue", "name": "Physical characteristics", "value": "loose powder or chips"}, {"@type": "PropertyValue", "name": "Aroma", "value": "slow, complex aroma as it warms"}, {"@type": "PropertyValue", "name": "Burning behavior", "value": "smolders / warms rather than melts; heated indirectly (electric heater or 隔火焚香) for minimal smoke"}, {"@type": "PropertyValue", "name": "Applications", "value": "pure-material scent via heating on charcoal or an electric heater; seal-pattern (篆香) powder"}], "citation": [{"type": "editorial_interpretation", "title": "IncenseHub editorial definition — material taxonomy (no external citation).", "url": "https://data.incensehub.org/materials/", "accessed": "2026-09-28", "evidenceLevel": "Tier 6 — Editorial synthesis"}]}</script>
 
 ## Claim & Evidence
 
@@ -13,7 +13,7 @@
 
 | Source | Type | Evidence level | Accessed |
 | --- | --- | --- | --- |
-| [LanDeng editorial definition — material taxonomy (no external citation).](https://data.incensehub.org/materials/) | editorial_interpretation | Tier 6 — Editorial synthesis | 2026-09-28 |
+| [IncenseHub editorial definition — material taxonomy (no external citation).](https://data.incensehub.org/materials/) | editorial_interpretation | Tier 6 — Editorial synthesis | 2026-09-28 |
 
 ## Attributes
 
@@ -29,4 +29,4 @@
 
 ---
 
-_Auto-generated from the LanDeng Open Datasets (single source of truth: `datasets/*.json`). See [Format & Governance](/format/) for data conventions._
+_Auto-generated from the IncenseHub Data (single source of truth: `datasets/*.json`). See [Format & Governance](/format/) for data conventions._

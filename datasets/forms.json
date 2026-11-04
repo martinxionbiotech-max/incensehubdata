@@ -2,13 +2,13 @@
   "@context": "https://schema.org",
   "@type": "Dataset",
   "@id": "https://data.incensehub.org/datasets/forms.json",
-  "name": "LanDeng Incense Form Database",
-  "description": "Machine-readable definitions of Chinese botanical incense forms — sticks, coils, cones, powder, resin, pills, beads, and the prepared low-smoke / smokeless categories. Extracted from the LanDeng (澜灯) incense encyclopedia; every fact is traceable to a source page, and unverified facts are marked unverified.",
+  "name": "IncenseHub Incense Form Database",
+  "description": "Machine-readable definitions of Chinese botanical incense forms — sticks, coils, cones, powder, resin, pills, beads, and the prepared low-smoke / smokeless categories. Extracted from the IncenseHub incense encyclopedia; every fact is traceable to a source page, and unverified facts are marked unverified.",
   "url": "https://data.incensehub.org/datasets/forms.json",
   "publisher": {
     "@type": "Organization",
     "@id": "https://incensehub.org/#organization",
-    "name": "Zhangjiakou Landeng Technology Co., Ltd."
+    "name": "IncenseHub"
   },
   "dateModified": "2026-09-28",
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -337,7 +337,7 @@
         "香饼",
         "xiāngbǐng"
       ],
-      "description": "香饼 (xiāngbǐng) — incense cake; a pressed-cake incense form. Not documented in the current LanDeng corpus; all fields are marked unverified.",
+      "description": "香饼 (xiāngbǐng) — incense cake; a pressed-cake incense form. Not documented in the current IncenseHub corpus; all fields are marked unverified.",
       "additionalProperty": [
         {
           "@type": "PropertyValue",
@@ -368,7 +368,7 @@
       "sources": [
         {
           "type": "editorial_interpretation",
-          "title": "LanDeng editorial definition — form taxonomy (no external citation).",
+          "title": "IncenseHub editorial definition — form taxonomy (no external citation).",
           "url": "https://data.incensehub.org/forms/",
           "accessed": "2026-09-28",
           "evidenceLevel": "Tier 6 — Editorial synthesis"
@@ -414,7 +414,7 @@
       "sources": [
         {
           "type": "editorial_interpretation",
-          "title": "LanDeng editorial definition — form taxonomy (no external citation).",
+          "title": "IncenseHub editorial definition — form taxonomy (no external citation).",
           "url": "https://data.incensehub.org/forms/",
           "accessed": "2026-09-28",
           "evidenceLevel": "Tier 6 — Editorial synthesis"

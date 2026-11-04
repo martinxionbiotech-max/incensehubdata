@@ -3,7 +3,7 @@
 
 # Incense Coil
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "@id": "https://data.incensehub.org/entities/incense-coil/#entity", "termCode": "incense-coil", "name": "Incense Coil", "description": "Incense coil (盘香) — the hours-long format, for long, steady room scent.", "url": "https://data.incensehub.org/entities/incense-coil/", "alternateName": ["盘香"], "additionalProperty": [{"@type": "PropertyValue", "name": "Material", "value": "Incense coil (盘香)"}, {"@type": "PropertyValue", "name": "Smoke", "value": "low–moderate"}, {"@type": "PropertyValue", "name": "Burn characteristics", "value": "~1.5–4 hours (larger coils longer)"}, {"@type": "PropertyValue", "name": "Common uses", "value": "long, continuous room scent; temples, long ceremonies"}], "citation": [{"type": "editorial_interpretation", "title": "LanDeng editorial definition — format comparison profile (no external citation).", "url": "https://data.incensehub.org/comparisons/", "accessed": "2026-09-28", "evidenceLevel": "Tier 6 — Editorial synthesis"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "@id": "https://data.incensehub.org/entities/incense-coil/#entity", "termCode": "incense-coil", "name": "Incense Coil", "description": "Incense coil (盘香) — the hours-long format, for long, steady room scent.", "url": "https://data.incensehub.org/entities/incense-coil/", "alternateName": ["盘香"], "additionalProperty": [{"@type": "PropertyValue", "name": "Material", "value": "Incense coil (盘香)"}, {"@type": "PropertyValue", "name": "Smoke", "value": "low–moderate"}, {"@type": "PropertyValue", "name": "Burn characteristics", "value": "~1.5–4 hours (larger coils longer)"}, {"@type": "PropertyValue", "name": "Common uses", "value": "long, continuous room scent; temples, long ceremonies"}], "citation": [{"type": "editorial_interpretation", "title": "IncenseHub editorial definition — format comparison profile (no external citation).", "url": "https://data.incensehub.org/comparisons/", "accessed": "2026-09-28", "evidenceLevel": "Tier 6 — Editorial synthesis"}]}</script>
 
 ## Claim & Evidence
 
@@ -13,7 +13,7 @@
 
 | Source | Type | Evidence level | Accessed |
 | --- | --- | --- | --- |
-| [LanDeng editorial definition — format comparison profile (no external citation).](https://data.incensehub.org/comparisons/) | editorial_interpretation | Tier 6 — Editorial synthesis | 2026-09-28 |
+| [IncenseHub editorial definition — format comparison profile (no external citation).](https://data.incensehub.org/comparisons/) | editorial_interpretation | Tier 6 — Editorial synthesis | 2026-09-28 |
 
 ## Attributes
 
@@ -26,4 +26,4 @@
 
 ---
 
-_Auto-generated from the LanDeng Open Datasets (single source of truth: `datasets/*.json`). See [Format & Governance](/format/) for data conventions._
+_Auto-generated from the IncenseHub Data (single source of truth: `datasets/*.json`). See [Format & Governance](/format/) for data conventions._

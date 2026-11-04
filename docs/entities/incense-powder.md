@@ -3,7 +3,7 @@
 
 # Incense Powder
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "@id": "https://data.incensehub.org/entities/incense-powder/#entity", "termCode": "incense-powder", "name": "Incense Powder", "description": "Incense powder (香粉) — loose ground wood pressed into seal patterns or heated; a pure-material, method-dependent form.", "url": "https://data.incensehub.org/entities/incense-powder/", "alternateName": ["香粉"], "additionalProperty": [{"@type": "PropertyValue", "name": "Material", "value": "Incense powder (香粉) / wood powder"}, {"@type": "PropertyValue", "name": "Aroma", "value": "pure-material scent — the actual ground wood"}, {"@type": "PropertyValue", "name": "Smoke", "value": "varies by method — minimal (heated) to moderate (lit seal pattern)"}, {"@type": "PropertyValue", "name": "Burn characteristics", "value": "method-dependent; wood powder smolders-warms (vs. resin, which melts); pressed seal pattern is lit"}, {"@type": "PropertyValue", "name": "Traditional context", "value": "篆香 (seal incense) — powder pressed into patterns"}, {"@type": "PropertyValue", "name": "Common uses", "value": "seal patterns (篆香), custom blends; pure-material scent"}], "citation": [{"type": "editorial_interpretation", "title": "LanDeng editorial definition — format comparison profile (no external citation).", "url": "https://data.incensehub.org/comparisons/", "accessed": "2026-09-28", "evidenceLevel": "Tier 6 — Editorial synthesis"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "@id": "https://data.incensehub.org/entities/incense-powder/#entity", "termCode": "incense-powder", "name": "Incense Powder", "description": "Incense powder (香粉) — loose ground wood pressed into seal patterns or heated; a pure-material, method-dependent form.", "url": "https://data.incensehub.org/entities/incense-powder/", "alternateName": ["香粉"], "additionalProperty": [{"@type": "PropertyValue", "name": "Material", "value": "Incense powder (香粉) / wood powder"}, {"@type": "PropertyValue", "name": "Aroma", "value": "pure-material scent — the actual ground wood"}, {"@type": "PropertyValue", "name": "Smoke", "value": "varies by method — minimal (heated) to moderate (lit seal pattern)"}, {"@type": "PropertyValue", "name": "Burn characteristics", "value": "method-dependent; wood powder smolders-warms (vs. resin, which melts); pressed seal pattern is lit"}, {"@type": "PropertyValue", "name": "Traditional context", "value": "篆香 (seal incense) — powder pressed into patterns"}, {"@type": "PropertyValue", "name": "Common uses", "value": "seal patterns (篆香), custom blends; pure-material scent"}], "citation": [{"type": "editorial_interpretation", "title": "IncenseHub editorial definition — format comparison profile (no external citation).", "url": "https://data.incensehub.org/comparisons/", "accessed": "2026-09-28", "evidenceLevel": "Tier 6 — Editorial synthesis"}]}</script>
 
 ## Claim & Evidence
 
@@ -13,7 +13,7 @@
 
 | Source | Type | Evidence level | Accessed |
 | --- | --- | --- | --- |
-| [LanDeng editorial definition — format comparison profile (no external citation).](https://data.incensehub.org/comparisons/) | editorial_interpretation | Tier 6 — Editorial synthesis | 2026-09-28 |
+| [IncenseHub editorial definition — format comparison profile (no external citation).](https://data.incensehub.org/comparisons/) | editorial_interpretation | Tier 6 — Editorial synthesis | 2026-09-28 |
 
 ## Attributes
 
@@ -28,4 +28,4 @@
 
 ---
 
-_Auto-generated from the LanDeng Open Datasets (single source of truth: `datasets/*.json`). See [Format & Governance](/format/) for data conventions._
+_Auto-generated from the IncenseHub Data (single source of truth: `datasets/*.json`). See [Format & Governance](/format/) for data conventions._

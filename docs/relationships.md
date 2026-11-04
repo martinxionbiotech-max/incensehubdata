@@ -1,6 +1,6 @@
 # Relationships Database
 
-Derived entity relationships between the 150 botanical incense ingredient entities and the entities of the other LanDeng datasets — aroma families, comparison profiles, techniques, and categories.
+Derived entity relationships between the 150 botanical incense ingredient entities and the entities of the other IncenseHub datasets — aroma families, comparison profiles, techniques, and categories.
 
 Every relationship is **derived from the seven source datasets** (`ingredients.json`, `aroma.json`, `comparisons.json`, `techniques.json`, `forms.json`, `materials.json`, `terminology.json`). No new fact is introduced.
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Export LanDeng datasets/*.json to flat CSV distribution packages.
+"""Export IncenseHub datasets/*.json to flat CSV distribution packages.
 
 Each dataset's `mainEntity` array is flattened into rows. Chinese and English
 names are carried side by side (`name_zh` / `name_en`); dataset-specific

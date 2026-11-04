@@ -27,7 +27,7 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-MAIN_INGREDIENTS_DIR = Path("/home/openclaw/LanDeng/src/content/ingredients")
+MAIN_INGREDIENTS_DIR = Path("/home/openclaw/IncenseHub/src/content/ingredients")
 DATASET = REPO_ROOT / "datasets" / "ingredients.json"
 
 MAIN_SITE = "https://incensehub.org"

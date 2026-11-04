@@ -3,7 +3,7 @@
 
 # Synthetic Binder
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "@id": "https://data.incensehub.org/entities/synthetic-binder/#entity", "termCode": "synthetic-binder", "name": "Synthetic Binder", "description": "A synthetic binder is a chemical adhesive or gum used in cheap, machine-made incense sticks.", "url": "https://data.incensehub.org/entities/synthetic-binder/", "additionalProperty": [{"@type": "PropertyValue", "name": "Type", "value": "synthetic binder (chemical adhesive)"}, {"@type": "PropertyValue", "name": "Source", "value": "chemical adhesive / gum"}, {"@type": "PropertyValue", "name": "Aroma", "value": "can impart a glue-like smell"}, {"@type": "PropertyValue", "name": "Burning behavior", "value": "can burn unevenly"}, {"@type": "PropertyValue", "name": "Applications", "value": "holds cheap machine-made sticks together"}], "citation": [{"type": "editorial_interpretation", "title": "LanDeng editorial definition — material taxonomy (no external citation).", "url": "https://data.incensehub.org/materials/", "accessed": "2026-09-28", "evidenceLevel": "Tier 6 — Editorial synthesis"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "@id": "https://data.incensehub.org/entities/synthetic-binder/#entity", "termCode": "synthetic-binder", "name": "Synthetic Binder", "description": "A synthetic binder is a chemical adhesive or gum used in cheap, machine-made incense sticks.", "url": "https://data.incensehub.org/entities/synthetic-binder/", "additionalProperty": [{"@type": "PropertyValue", "name": "Type", "value": "synthetic binder (chemical adhesive)"}, {"@type": "PropertyValue", "name": "Source", "value": "chemical adhesive / gum"}, {"@type": "PropertyValue", "name": "Aroma", "value": "can impart a glue-like smell"}, {"@type": "PropertyValue", "name": "Burning behavior", "value": "can burn unevenly"}, {"@type": "PropertyValue", "name": "Applications", "value": "holds cheap machine-made sticks together"}], "citation": [{"type": "editorial_interpretation", "title": "IncenseHub editorial definition — material taxonomy (no external citation).", "url": "https://data.incensehub.org/materials/", "accessed": "2026-09-28", "evidenceLevel": "Tier 6 — Editorial synthesis"}]}</script>
 
 ## Claim & Evidence
 
@@ -13,7 +13,7 @@
 
 | Source | Type | Evidence level | Accessed |
 | --- | --- | --- | --- |
-| [LanDeng editorial definition — material taxonomy (no external citation).](https://data.incensehub.org/materials/) | editorial_interpretation | Tier 6 — Editorial synthesis | 2026-09-28 |
+| [IncenseHub editorial definition — material taxonomy (no external citation).](https://data.incensehub.org/materials/) | editorial_interpretation | Tier 6 — Editorial synthesis | 2026-09-28 |
 
 ## Attributes
 
@@ -27,4 +27,4 @@
 
 ---
 
-_Auto-generated from the LanDeng Open Datasets (single source of truth: `datasets/*.json`). See [Format & Governance](/format/) for data conventions._
+_Auto-generated from the IncenseHub Data (single source of truth: `datasets/*.json`). See [Format & Governance](/format/) for data conventions._

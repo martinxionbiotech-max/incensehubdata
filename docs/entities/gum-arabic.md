@@ -3,7 +3,7 @@
 
 # Gum Arabic
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "@id": "https://data.incensehub.org/entities/gum-arabic/#entity", "termCode": "gum-arabic", "name": "Gum Arabic", "description": "Gum arabic is a plant-derived natural binder that appears (less centrally than makko) in natural incense.", "url": "https://data.incensehub.org/entities/gum-arabic/", "additionalProperty": [{"@type": "PropertyValue", "name": "Type", "value": "natural binder (plant gum)"}, {"@type": "PropertyValue", "name": "Source", "value": "gum arabic (plant gum)"}, {"@type": "PropertyValue", "name": "Applications", "value": "plant-derived binder in natural incense"}], "citation": [{"type": "editorial_interpretation", "title": "LanDeng editorial definition — material taxonomy (no external citation).", "url": "https://data.incensehub.org/materials/", "accessed": "2026-09-28", "evidenceLevel": "Tier 6 — Editorial synthesis"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "@id": "https://data.incensehub.org/entities/gum-arabic/#entity", "termCode": "gum-arabic", "name": "Gum Arabic", "description": "Gum arabic is a plant-derived natural binder that appears (less centrally than makko) in natural incense.", "url": "https://data.incensehub.org/entities/gum-arabic/", "additionalProperty": [{"@type": "PropertyValue", "name": "Type", "value": "natural binder (plant gum)"}, {"@type": "PropertyValue", "name": "Source", "value": "gum arabic (plant gum)"}, {"@type": "PropertyValue", "name": "Applications", "value": "plant-derived binder in natural incense"}], "citation": [{"type": "editorial_interpretation", "title": "IncenseHub editorial definition — material taxonomy (no external citation).", "url": "https://data.incensehub.org/materials/", "accessed": "2026-09-28", "evidenceLevel": "Tier 6 — Editorial synthesis"}]}</script>
 
 ## Claim & Evidence
 
@@ -13,7 +13,7 @@
 
 | Source | Type | Evidence level | Accessed |
 | --- | --- | --- | --- |
-| [LanDeng editorial definition — material taxonomy (no external citation).](https://data.incensehub.org/materials/) | editorial_interpretation | Tier 6 — Editorial synthesis | 2026-09-28 |
+| [IncenseHub editorial definition — material taxonomy (no external citation).](https://data.incensehub.org/materials/) | editorial_interpretation | Tier 6 — Editorial synthesis | 2026-09-28 |
 
 ## Attributes
 
@@ -25,4 +25,4 @@
 
 ---
 
-_Auto-generated from the LanDeng Open Datasets (single source of truth: `datasets/*.json`). See [Format & Governance](/format/) for data conventions._
+_Auto-generated from the IncenseHub Data (single source of truth: `datasets/*.json`). See [Format & Governance](/format/) for data conventions._

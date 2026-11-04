@@ -3,7 +3,7 @@
 
 # Incense Resin
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "@id": "https://data.incensehub.org/entities/incense-resin/#entity", "termCode": "incense-resin", "name": "Incense Resin", "description": "Incense resin (树脂) — loose resin tears (frankincense, myrrh) heated rather than burned for a low-smoke, pure-material scent.", "url": "https://data.incensehub.org/entities/incense-resin/", "alternateName": ["树脂"], "additionalProperty": [{"@type": "PropertyValue", "name": "Material", "value": "Incense resin (树脂) — frankincense / myrrh tears"}, {"@type": "PropertyValue", "name": "Aroma", "value": "rich, fresh scent released on heat"}, {"@type": "PropertyValue", "name": "Smoke", "value": "minimal (electric heater) / higher (charcoal)"}, {"@type": "PropertyValue", "name": "Burn characteristics", "value": "heated, not burned; resin melts and releases scent (vs. wood, which smolders-warms)"}, {"@type": "PropertyValue", "name": "Traditional context", "value": "隔火焚香 (indirect-fire incense) — the refined low-smoke method"}, {"@type": "PropertyValue", "name": "Common uses", "value": "low-smoke, controlled aroma; traditional bakhoor-style"}], "citation": [{"type": "editorial_interpretation", "title": "LanDeng editorial definition — format comparison profile (no external citation).", "url": "https://data.incensehub.org/comparisons/", "accessed": "2026-09-28", "evidenceLevel": "Tier 6 — Editorial synthesis"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "@id": "https://data.incensehub.org/entities/incense-resin/#entity", "termCode": "incense-resin", "name": "Incense Resin", "description": "Incense resin (树脂) — loose resin tears (frankincense, myrrh) heated rather than burned for a low-smoke, pure-material scent.", "url": "https://data.incensehub.org/entities/incense-resin/", "alternateName": ["树脂"], "additionalProperty": [{"@type": "PropertyValue", "name": "Material", "value": "Incense resin (树脂) — frankincense / myrrh tears"}, {"@type": "PropertyValue", "name": "Aroma", "value": "rich, fresh scent released on heat"}, {"@type": "PropertyValue", "name": "Smoke", "value": "minimal (electric heater) / higher (charcoal)"}, {"@type": "PropertyValue", "name": "Burn characteristics", "value": "heated, not burned; resin melts and releases scent (vs. wood, which smolders-warms)"}, {"@type": "PropertyValue", "name": "Traditional context", "value": "隔火焚香 (indirect-fire incense) — the refined low-smoke method"}, {"@type": "PropertyValue", "name": "Common uses", "value": "low-smoke, controlled aroma; traditional bakhoor-style"}], "citation": [{"type": "editorial_interpretation", "title": "IncenseHub editorial definition — format comparison profile (no external citation).", "url": "https://data.incensehub.org/comparisons/", "accessed": "2026-09-28", "evidenceLevel": "Tier 6 — Editorial synthesis"}]}</script>
 
 ## Claim & Evidence
 
@@ -13,7 +13,7 @@
 
 | Source | Type | Evidence level | Accessed |
 | --- | --- | --- | --- |
-| [LanDeng editorial definition — format comparison profile (no external citation).](https://data.incensehub.org/comparisons/) | editorial_interpretation | Tier 6 — Editorial synthesis | 2026-09-28 |
+| [IncenseHub editorial definition — format comparison profile (no external citation).](https://data.incensehub.org/comparisons/) | editorial_interpretation | Tier 6 — Editorial synthesis | 2026-09-28 |
 
 ## Attributes
 
@@ -28,4 +28,4 @@
 
 ---
 
-_Auto-generated from the LanDeng Open Datasets (single source of truth: `datasets/*.json`). See [Format & Governance](/format/) for data conventions._
+_Auto-generated from the IncenseHub Data (single source of truth: `datasets/*.json`). See [Format & Governance](/format/) for data conventions._

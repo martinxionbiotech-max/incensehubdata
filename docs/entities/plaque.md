@@ -3,7 +3,7 @@
 
 # Incense Plaque
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "@id": "https://data.incensehub.org/entities/plaque/#entity", "termCode": "plaque", "name": "Incense Plaque", "description": "香牌 (xiāngpái) — incense plaque / tablet; a pressed or carved incense form. Recorded as a term; construction and burn facts are unverified in the current corpus.", "url": "https://data.incensehub.org/entities/plaque/", "alternateName": ["香牌", "xiāngpái"], "additionalProperty": [{"@type": "PropertyValue", "name": "Form", "value": "incense plaque / tablet (香牌)"}, {"@type": "PropertyValue", "name": "Construction", "value": "unverified (not documented in corpus)"}, {"@type": "PropertyValue", "name": "Burn time", "value": "unverified"}, {"@type": "PropertyValue", "name": "Intensity", "value": "unverified"}, {"@type": "PropertyValue", "name": "Use case", "value": "unverified"}], "citation": [{"type": "editorial_interpretation", "title": "LanDeng editorial definition — form taxonomy (no external citation).", "url": "https://data.incensehub.org/forms/", "accessed": "2026-09-28", "evidenceLevel": "Tier 6 — Editorial synthesis"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "@id": "https://data.incensehub.org/entities/plaque/#entity", "termCode": "plaque", "name": "Incense Plaque", "description": "香牌 (xiāngpái) — incense plaque / tablet; a pressed or carved incense form. Recorded as a term; construction and burn facts are unverified in the current corpus.", "url": "https://data.incensehub.org/entities/plaque/", "alternateName": ["香牌", "xiāngpái"], "additionalProperty": [{"@type": "PropertyValue", "name": "Form", "value": "incense plaque / tablet (香牌)"}, {"@type": "PropertyValue", "name": "Construction", "value": "unverified (not documented in corpus)"}, {"@type": "PropertyValue", "name": "Burn time", "value": "unverified"}, {"@type": "PropertyValue", "name": "Intensity", "value": "unverified"}, {"@type": "PropertyValue", "name": "Use case", "value": "unverified"}], "citation": [{"type": "editorial_interpretation", "title": "IncenseHub editorial definition — form taxonomy (no external citation).", "url": "https://data.incensehub.org/forms/", "accessed": "2026-09-28", "evidenceLevel": "Tier 6 — Editorial synthesis"}]}</script>
 
 ## Claim & Evidence
 
@@ -13,7 +13,7 @@
 
 | Source | Type | Evidence level | Accessed |
 | --- | --- | --- | --- |
-| [LanDeng editorial definition — form taxonomy (no external citation).](https://data.incensehub.org/forms/) | editorial_interpretation | Tier 6 — Editorial synthesis | 2026-09-28 |
+| [IncenseHub editorial definition — form taxonomy (no external citation).](https://data.incensehub.org/forms/) | editorial_interpretation | Tier 6 — Editorial synthesis | 2026-09-28 |
 
 ## Attributes
 
@@ -27,4 +27,4 @@
 
 ---
 
-_Auto-generated from the LanDeng Open Datasets (single source of truth: `datasets/*.json`). See [Format & Governance](/format/) for data conventions._
+_Auto-generated from the IncenseHub Data (single source of truth: `datasets/*.json`). See [Format & Governance](/format/) for data conventions._

@@ -3,7 +3,7 @@
 
 # Fragrance Oil
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "@id": "https://data.incensehub.org/entities/fragrance-oil/#entity", "termCode": "fragrance-oil", "name": "Fragrance Oil", "description": "Fragrance oil is a manufactured, often petroleum-derived scent used in synthetic incense in place of real plant material.", "url": "https://data.incensehub.org/entities/fragrance-oil/", "additionalProperty": [{"@type": "PropertyValue", "name": "Type", "value": "synthetic aromatic material"}, {"@type": "PropertyValue", "name": "Source", "value": "manufactured scent, often petroleum-derived, with no plant material behind it"}, {"@type": "PropertyValue", "name": "Processing", "value": "soaked onto a charcoal or sawdust base"}, {"@type": "PropertyValue", "name": "Physical characteristics", "value": "a manufactured liquid scent (dipped/coated onto a base)"}, {"@type": "PropertyValue", "name": "Aroma", "value": "strong, uniform, often 'perfumey'"}, {"@type": "PropertyValue", "name": "Burning behavior", "value": "carried on a neutral base (charcoal/sawdust) that burns; fragrance-oil sticks burn with a louder, uniform 'perfumy' character"}, {"@type": "PropertyValue", "name": "Applications", "value": "the aromatic component of dipped / fragrance-oil sticks"}], "citation": [{"type": "editorial_interpretation", "title": "LanDeng editorial definition — material taxonomy (no external citation).", "url": "https://data.incensehub.org/materials/", "accessed": "2026-09-28", "evidenceLevel": "Tier 6 — Editorial synthesis"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "@id": "https://data.incensehub.org/entities/fragrance-oil/#entity", "termCode": "fragrance-oil", "name": "Fragrance Oil", "description": "Fragrance oil is a manufactured, often petroleum-derived scent used in synthetic incense in place of real plant material.", "url": "https://data.incensehub.org/entities/fragrance-oil/", "additionalProperty": [{"@type": "PropertyValue", "name": "Type", "value": "synthetic aromatic material"}, {"@type": "PropertyValue", "name": "Source", "value": "manufactured scent, often petroleum-derived, with no plant material behind it"}, {"@type": "PropertyValue", "name": "Processing", "value": "soaked onto a charcoal or sawdust base"}, {"@type": "PropertyValue", "name": "Physical characteristics", "value": "a manufactured liquid scent (dipped/coated onto a base)"}, {"@type": "PropertyValue", "name": "Aroma", "value": "strong, uniform, often 'perfumey'"}, {"@type": "PropertyValue", "name": "Burning behavior", "value": "carried on a neutral base (charcoal/sawdust) that burns; fragrance-oil sticks burn with a louder, uniform 'perfumy' character"}, {"@type": "PropertyValue", "name": "Applications", "value": "the aromatic component of dipped / fragrance-oil sticks"}], "citation": [{"type": "editorial_interpretation", "title": "IncenseHub editorial definition — material taxonomy (no external citation).", "url": "https://data.incensehub.org/materials/", "accessed": "2026-09-28", "evidenceLevel": "Tier 6 — Editorial synthesis"}]}</script>
 
 ## Claim & Evidence
 
@@ -13,7 +13,7 @@
 
 | Source | Type | Evidence level | Accessed |
 | --- | --- | --- | --- |
-| [LanDeng editorial definition — material taxonomy (no external citation).](https://data.incensehub.org/materials/) | editorial_interpretation | Tier 6 — Editorial synthesis | 2026-09-28 |
+| [IncenseHub editorial definition — material taxonomy (no external citation).](https://data.incensehub.org/materials/) | editorial_interpretation | Tier 6 — Editorial synthesis | 2026-09-28 |
 
 ## Attributes
 
@@ -29,4 +29,4 @@
 
 ---
 
-_Auto-generated from the LanDeng Open Datasets (single source of truth: `datasets/*.json`). See [Format & Governance](/format/) for data conventions._
+_Auto-generated from the IncenseHub Data (single source of truth: `datasets/*.json`). See [Format & Governance](/format/) for data conventions._

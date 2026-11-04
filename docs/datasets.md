@@ -1,6 +1,6 @@
 # Datasets Overview
 
-Eight machine-readable knowledge datasets for the LanDeng (澜灯) platform — Chinese botanical incense, documented in English with source transparency. All datasets are licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), are free to access, and are served as stable JSON from `data.incensehub.org`.
+Eight machine-readable knowledge datasets for the IncenseHub platform — Chinese botanical incense, documented in English with source transparency. All datasets are licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), are free to access, and are served as stable JSON from `data.incensehub.org`.
 
 <!-- AUTO:counts:datasets-table -->
 | Dataset | File | CSV | Entities | Last updated | Version |

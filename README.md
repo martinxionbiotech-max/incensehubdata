@@ -2,9 +2,9 @@
 
 Canonical machine-readable datasets for IncenseHub — Chinese botanical incense, documented in English with source transparency.
 
-> **Canonical repository.** Supersedes `data-landeng` and `data.IncenseHub` (both deprecated).
+> **Canonical repository.** The only active IncenseHub data repository.
 
-Per `ORIGINAL-DATA-ASSETS.md` (LanDeng main repo): every dataset must be accurate, traceable, structured, maintainable, reviewable. No sensitive or proprietary data.
+Per `ORIGINAL-DATA-ASSETS.md` (IncenseHub main repo): every dataset must be accurate, traceable, structured, maintainable, reviewable. No sensitive or proprietary data.
 
 ## Datasets
 
@@ -29,18 +29,4 @@ Per `ORIGINAL-DATA-ASSETS.md` (LanDeng main repo): every dataset must be accurat
 
 ## Publisher
 
-LanDeng is a brand operated by **Zhangjiakou Landeng Technology Co., Ltd.** (张家口澜灯科技有限公司), USCC 91130702MAKM4QXH5Q. The datasets are maintained by the company's editorial team (the "Landeng Tech Team").
-
-- **Company (EN):** Zhangjiakou Landeng Technology Co., Ltd.
-- **Company (ZH):** 张家口澜灯科技有限公司
-- **USCC:** 91130702MAKM4QXH5Q
-- **Address:** Room 202, Unit 4, Building 14, Linli Jiayuan, No. 1 Gongye East Street, Qiaodong District, Zhangjiakou, Hebei, China
-- **Email:** landengltd@gmail.com
-- **Phone / WhatsApp / WeChat:** +86 13323237275
-
-## Governance
-
-- Never expose sensitive or proprietary data.
-- Data changes require source traceability (termCode / reference fields).
-- Every dataset carries `license` (CC BY-SA 4.0), `version`, `dateModified`, and `changelog`.
-- Every source citation carries an `evidenceLevel` (Evidence Tier). See [docs/format.md](docs/format.md).
+IncenseHub Data is maintained by the IncenseHub editorial team. See https://incensehub.org/about/.

@@ -2,13 +2,13 @@
  "@context": "https://schema.org",
  "@type": "Dataset",
  "@id": "https://data.incensehub.org/datasets/terminology.json",
- "name": "LanDeng Chinese Incense Terminology (Chinese–English)",
- "description": "Canonical Chinese–English terminology for Chinese botanical incense, compiled by LanDeng (澜灯). Chinese terms are the source of truth; English is the agreed translation. One Chinese word does not always map to one English word.",
+ "name": "IncenseHub Chinese Incense Terminology (Chinese–English)",
+ "description": "Canonical Chinese–English terminology for Chinese botanical incense, compiled by IncenseHub. Chinese terms are the source of truth; English is the agreed translation. One Chinese word does not always map to one English word.",
  "url": "https://data.incensehub.org/datasets/terminology.json",
  "publisher": {
   "@type": "Organization",
   "@id": "https://incensehub.org/#organization",
-  "name": "Zhangjiakou Landeng Technology Co., Ltd."
+  "name": "IncenseHub"
  },
  "dateModified": "2026-09-28",
  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -5916,7 +5916,7 @@
    "sources": [
     {
      "type": "editorial",
-     "title": "Wholesale Incense Buying Guide — LanDeng",
+     "title": "Wholesale Incense Buying Guide — IncenseHub",
      "url": "https://incensehub.org/blog/wholesale-guide/",
      "accessed": "2026-09-22",
      "evidenceLevel": "Tier 6 — Editorial synthesis"
@@ -5948,7 +5948,7 @@
    "sources": [
     {
      "type": "editorial",
-     "title": "Wholesale Incense Buying Guide — LanDeng",
+     "title": "Wholesale Incense Buying Guide — IncenseHub",
      "url": "https://incensehub.org/blog/wholesale-guide/",
      "accessed": "2026-09-22",
      "evidenceLevel": "Tier 6 — Editorial synthesis"
@@ -5980,7 +5980,7 @@
    "sources": [
     {
      "type": "editorial",
-     "title": "Wholesale Incense Buying Guide — LanDeng",
+     "title": "Wholesale Incense Buying Guide — IncenseHub",
      "url": "https://incensehub.org/blog/wholesale-guide/",
      "accessed": "2026-09-22",
      "evidenceLevel": "Tier 6 — Editorial synthesis"

@@ -3,7 +3,7 @@
 
 # Aromatherapy Beads
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "@id": "https://data.incensehub.org/entities/aromatherapy-beads/#entity", "termCode": "aromatherapy-beads", "name": "Aromatherapy Beads", "description": "Aromatherapy beads — scented bracelets worn (not burned), a portable, zero-smoke option.", "url": "https://data.incensehub.org/entities/aromatherapy-beads/", "additionalProperty": [{"@type": "PropertyValue", "name": "Material", "value": "Aromatherapy beads"}, {"@type": "PropertyValue", "name": "Smoke", "value": "none (worn, not burned)"}, {"@type": "PropertyValue", "name": "Burn characteristics", "value": "n/a — not burned"}, {"@type": "PropertyValue", "name": "Common uses", "value": "portable scent, no burning"}], "citation": [{"type": "editorial_interpretation", "title": "LanDeng editorial definition — format comparison profile (no external citation).", "url": "https://data.incensehub.org/comparisons/", "accessed": "2026-09-28", "evidenceLevel": "Tier 6 — Editorial synthesis"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "@id": "https://data.incensehub.org/entities/aromatherapy-beads/#entity", "termCode": "aromatherapy-beads", "name": "Aromatherapy Beads", "description": "Aromatherapy beads — scented bracelets worn (not burned), a portable, zero-smoke option.", "url": "https://data.incensehub.org/entities/aromatherapy-beads/", "additionalProperty": [{"@type": "PropertyValue", "name": "Material", "value": "Aromatherapy beads"}, {"@type": "PropertyValue", "name": "Smoke", "value": "none (worn, not burned)"}, {"@type": "PropertyValue", "name": "Burn characteristics", "value": "n/a — not burned"}, {"@type": "PropertyValue", "name": "Common uses", "value": "portable scent, no burning"}], "citation": [{"type": "editorial_interpretation", "title": "IncenseHub editorial definition — format comparison profile (no external citation).", "url": "https://data.incensehub.org/comparisons/", "accessed": "2026-09-28", "evidenceLevel": "Tier 6 — Editorial synthesis"}]}</script>
 
 ## Claim & Evidence
 
@@ -13,7 +13,7 @@
 
 | Source | Type | Evidence level | Accessed |
 | --- | --- | --- | --- |
-| [LanDeng editorial definition — format comparison profile (no external citation).](https://data.incensehub.org/comparisons/) | editorial_interpretation | Tier 6 — Editorial synthesis | 2026-09-28 |
+| [IncenseHub editorial definition — format comparison profile (no external citation).](https://data.incensehub.org/comparisons/) | editorial_interpretation | Tier 6 — Editorial synthesis | 2026-09-28 |
 
 ## Attributes
 
@@ -26,4 +26,4 @@
 
 ---
 
-_Auto-generated from the LanDeng Open Datasets (single source of truth: `datasets/*.json`). See [Format & Governance](/format/) for data conventions._
+_Auto-generated from the IncenseHub Data (single source of truth: `datasets/*.json`). See [Format & Governance](/format/) for data conventions._

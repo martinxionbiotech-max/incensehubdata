@@ -160,7 +160,7 @@ def render_entity_page(code: str, record: dict, rel_edges: list[dict]) -> str:
     lines += [
         "---",
         "",
-        "_Auto-generated from the LanDeng Open Datasets (single source of truth: "
+        "_Auto-generated from the IncenseHub Data (single source of truth: "
         f"`datasets/*.json`). See [Format & Governance](/format/) for data "
         "conventions._",
         "",
@@ -218,7 +218,7 @@ def build_retrieval_index(entities: dict[str, dict], rel_index: dict[str, list[d
     return {
         "@context": "https://schema.org",
         "@type": "ItemList",
-        "name": "LanDeng entity retrieval index",
+        "name": "IncenseHub entity retrieval index",
         "url": f"{SITE_URL}/entities/index.json",
         "numberOfItems": len(out),
         "itemListElement": out,

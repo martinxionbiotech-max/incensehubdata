@@ -1,8 +1,8 @@
-# LanDeng Open Datasets
+# IncenseHub Data
 
-**Main site:** [incensehub.org](https://incensehub.org) — the LanDeng knowledge platform. Browse the [ingredient encyclopedia](https://incensehub.org/ingredients/), the [Chinese incense guide](https://incensehub.org/chinese-incense/), and the [ingredient encyclopedia index](https://incensehub.org/ingredients/).
+**Main site:** [incensehub.org](https://incensehub.org) — the IncenseHub knowledge platform. Browse the [ingredient encyclopedia](https://incensehub.org/ingredients/), the [Chinese incense guide](https://incensehub.org/chinese-incense/), and the [ingredient encyclopedia index](https://incensehub.org/ingredients/).
 
-Machine-readable, link-worthy knowledge datasets for the LanDeng (澜灯) platform — Chinese botanical incense, documented in English with source transparency.
+Machine-readable, link-worthy knowledge datasets for the IncenseHub platform — Chinese botanical incense, documented in English with source transparency.
 
 <!-- AUTO:counts:index-table -->
 | Dataset | File | Status |
@@ -20,4 +20,4 @@ All datasets use Schema.org `Dataset` + `DefinedTerm` structures. See [Format & 
 
 ## Publisher
 
-LanDeng is a brand operated by **Zhangjiakou Landeng Technology Co., Ltd.** (张家口澜灯科技有限公司), USCC 91130702MAKM4QXH5Q. Email: landengltd@gmail.com · Phone / WhatsApp / WeChat: +86 13323237275.
+IncenseHub is a brand operated by **IncenseHub** (张家口IncenseHub科技有限公司), USCC 91130702MAKM4QXH5Q. Email: incensehubltd@gmail.com · Phone / WhatsApp / WeChat: +86 13323237275.

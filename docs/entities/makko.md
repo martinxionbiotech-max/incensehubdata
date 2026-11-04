@@ -3,7 +3,7 @@
 
 # Makko
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "@id": "https://data.incensehub.org/entities/makko/#entity", "termCode": "makko", "name": "Makko", "description": "Makko (抹香) is the powdered inner bark of the Machilus thunbergii tree (tabunoki), the traditional combustible wood-powder binder of East Asian stick incense.", "url": "https://data.incensehub.org/entities/makko/", "alternateName": ["抹香"], "additionalProperty": [{"@type": "PropertyValue", "name": "Type", "value": "natural binder (combustible wood powder)"}, {"@type": "PropertyValue", "name": "Source", "value": "powdered inner bark of Machilus thunbergii (Lauraceae), the tabunoki tree"}, {"@type": "PropertyValue", "name": "Processing", "value": "dried and ground inner bark"}, {"@type": "PropertyValue", "name": "Physical characteristics", "value": "fine, light-colored, nearly odorless powder"}, {"@type": "PropertyValue", "name": "Aroma", "value": "low-odor / nearly odorless"}, {"@type": "PropertyValue", "name": "Burning behavior", "value": "combustible — burns cleanly and evenly, leaving little ash and no glue smell"}, {"@type": "PropertyValue", "name": "Applications", "value": "binder and combustion aid for stick, cone and coil incense; forms a workable paste with water that dries into a firm, self-supporting form"}], "citation": [{"type": "editorial_interpretation", "title": "LanDeng editorial definition — material taxonomy (no external citation).", "url": "https://data.incensehub.org/materials/", "accessed": "2026-09-28", "evidenceLevel": "Tier 6 — Editorial synthesis"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "@id": "https://data.incensehub.org/entities/makko/#entity", "termCode": "makko", "name": "Makko", "description": "Makko (抹香) is the powdered inner bark of the Machilus thunbergii tree (tabunoki), the traditional combustible wood-powder binder of East Asian stick incense.", "url": "https://data.incensehub.org/entities/makko/", "alternateName": ["抹香"], "additionalProperty": [{"@type": "PropertyValue", "name": "Type", "value": "natural binder (combustible wood powder)"}, {"@type": "PropertyValue", "name": "Source", "value": "powdered inner bark of Machilus thunbergii (Lauraceae), the tabunoki tree"}, {"@type": "PropertyValue", "name": "Processing", "value": "dried and ground inner bark"}, {"@type": "PropertyValue", "name": "Physical characteristics", "value": "fine, light-colored, nearly odorless powder"}, {"@type": "PropertyValue", "name": "Aroma", "value": "low-odor / nearly odorless"}, {"@type": "PropertyValue", "name": "Burning behavior", "value": "combustible — burns cleanly and evenly, leaving little ash and no glue smell"}, {"@type": "PropertyValue", "name": "Applications", "value": "binder and combustion aid for stick, cone and coil incense; forms a workable paste with water that dries into a firm, self-supporting form"}], "citation": [{"type": "editorial_interpretation", "title": "IncenseHub editorial definition — material taxonomy (no external citation).", "url": "https://data.incensehub.org/materials/", "accessed": "2026-09-28", "evidenceLevel": "Tier 6 — Editorial synthesis"}]}</script>
 
 ## Claim & Evidence
 
@@ -13,7 +13,7 @@
 
 | Source | Type | Evidence level | Accessed |
 | --- | --- | --- | --- |
-| [LanDeng editorial definition — material taxonomy (no external citation).](https://data.incensehub.org/materials/) | editorial_interpretation | Tier 6 — Editorial synthesis | 2026-09-28 |
+| [IncenseHub editorial definition — material taxonomy (no external citation).](https://data.incensehub.org/materials/) | editorial_interpretation | Tier 6 — Editorial synthesis | 2026-09-28 |
 
 ## Attributes
 
@@ -29,4 +29,4 @@
 
 ---
 
-_Auto-generated from the LanDeng Open Datasets (single source of truth: `datasets/*.json`). See [Format & Governance](/format/) for data conventions._
+_Auto-generated from the IncenseHub Data (single source of truth: `datasets/*.json`). See [Format & Governance](/format/) for data conventions._

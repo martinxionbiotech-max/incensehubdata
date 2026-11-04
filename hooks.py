@@ -86,7 +86,7 @@ def on_post_build(config, **kwargs):
             data = json.loads(jpath.read_text(encoding="utf-8"))
         except Exception:
             continue
-        org = {"@type": "Organization", "name": "Zhangjiakou Landeng Technology Co., Ltd."}
+        org = {"@type": "Organization", "name": "IncenseHub"}
         ds = {
             "@context": "https://schema.org",
             "@type": "Dataset",
@@ -122,7 +122,7 @@ def on_post_build(config, **kwargs):
             return 0
 
     lines = [
-        "# LanDeng Open Datasets",
+        "# IncenseHub Data",
         "",
         "> Machine-readable knowledge datasets for Chinese botanical incense.",
         "",

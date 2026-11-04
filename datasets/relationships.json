@@ -2,13 +2,13 @@
   "@context": "https://schema.org",
   "@type": "Dataset",
   "@id": "https://data.incensehub.org/datasets/relationships.json",
-  "name": "LanDeng Incense Entity Relationship Database",
-  "description": "Derived relationships between the 150 botanical incense ingredient entities and the aroma, form, technique, comparison, category and ingredient entities across the LanDeng open datasets. Derived edges come from the seven source datasets; related-material edges are mirrored from the editorial links on the main-site ingredient encyclopedia. No new fact is introduced.",
+  "name": "IncenseHub Incense Entity Relationship Database",
+  "description": "Derived relationships between the 150 botanical incense ingredient entities and the aroma, form, technique, comparison, category and ingredient entities across the IncenseHub open datasets. Derived edges come from the seven source datasets; related-material edges are mirrored from the editorial links on the main-site ingredient encyclopedia. No new fact is introduced.",
   "url": "https://data.incensehub.org/datasets/relationships.json",
   "publisher": {
     "@type": "Organization",
     "@id": "https://incensehub.org/#organization",
-    "name": "Zhangjiakou Landeng Technology Co., Ltd."
+    "name": "IncenseHub"
   },
   "dateModified": "2026-09-28",
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",

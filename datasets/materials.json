@@ -2,13 +2,13 @@
   "@context": "https://schema.org",
   "@type": "Dataset",
   "@id": "https://data.incensehub.org/datasets/materials.json",
-  "name": "LanDeng Incense Material Database",
-  "description": "Machine-readable definitions of the functional materials used to make Chinese botanical incense — binders, bases, cores, fuels, and loose aromatic materials. Extracted from the LanDeng (澜灯) incense encyclopedia; values are traceable to source pages and no value is fabricated.",
+  "name": "IncenseHub Incense Material Database",
+  "description": "Machine-readable definitions of the functional materials used to make Chinese botanical incense — binders, bases, cores, fuels, and loose aromatic materials. Extracted from the IncenseHub incense encyclopedia; values are traceable to source pages and no value is fabricated.",
   "url": "https://data.incensehub.org/datasets/materials.json",
   "publisher": {
     "@type": "Organization",
     "@id": "https://incensehub.org/#organization",
-    "name": "Zhangjiakou Landeng Technology Co., Ltd."
+    "name": "IncenseHub"
   },
   "dateModified": "2026-09-28",
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -73,7 +73,7 @@
       "sources": [
         {
           "type": "editorial_interpretation",
-          "title": "LanDeng editorial definition — material taxonomy (no external citation).",
+          "title": "IncenseHub editorial definition — material taxonomy (no external citation).",
           "url": "https://data.incensehub.org/materials/",
           "accessed": "2026-09-28",
           "evidenceLevel": "Tier 6 — Editorial synthesis"
@@ -120,7 +120,7 @@
       "sources": [
         {
           "type": "editorial_interpretation",
-          "title": "LanDeng editorial definition — material taxonomy (no external citation).",
+          "title": "IncenseHub editorial definition — material taxonomy (no external citation).",
           "url": "https://data.incensehub.org/materials/",
           "accessed": "2026-09-28",
           "evidenceLevel": "Tier 6 — Editorial synthesis"
@@ -172,7 +172,7 @@
       "sources": [
         {
           "type": "editorial_interpretation",
-          "title": "LanDeng editorial definition — material taxonomy (no external citation).",
+          "title": "IncenseHub editorial definition — material taxonomy (no external citation).",
           "url": "https://data.incensehub.org/materials/",
           "accessed": "2026-09-28",
           "evidenceLevel": "Tier 6 — Editorial synthesis"
@@ -228,7 +228,7 @@
       "sources": [
         {
           "type": "editorial_interpretation",
-          "title": "LanDeng editorial definition — material taxonomy (no external citation).",
+          "title": "IncenseHub editorial definition — material taxonomy (no external citation).",
           "url": "https://data.incensehub.org/materials/",
           "accessed": "2026-09-28",
           "evidenceLevel": "Tier 6 — Editorial synthesis"
@@ -270,7 +270,7 @@
       "sources": [
         {
           "type": "editorial_interpretation",
-          "title": "LanDeng editorial definition — material taxonomy (no external citation).",
+          "title": "IncenseHub editorial definition — material taxonomy (no external citation).",
           "url": "https://data.incensehub.org/materials/",
           "accessed": "2026-09-28",
           "evidenceLevel": "Tier 6 — Editorial synthesis"
@@ -312,7 +312,7 @@
       "sources": [
         {
           "type": "editorial_interpretation",
-          "title": "LanDeng editorial definition — material taxonomy (no external citation).",
+          "title": "IncenseHub editorial definition — material taxonomy (no external citation).",
           "url": "https://data.incensehub.org/materials/",
           "accessed": "2026-09-28",
           "evidenceLevel": "Tier 6 — Editorial synthesis"
@@ -362,7 +362,7 @@
       "sources": [
         {
           "type": "editorial_interpretation",
-          "title": "LanDeng editorial definition — material taxonomy (no external citation).",
+          "title": "IncenseHub editorial definition — material taxonomy (no external citation).",
           "url": "https://data.incensehub.org/materials/",
           "accessed": "2026-09-28",
           "evidenceLevel": "Tier 6 — Editorial synthesis"
@@ -394,7 +394,7 @@
       "sources": [
         {
           "type": "editorial_interpretation",
-          "title": "LanDeng editorial definition — material taxonomy (no external citation).",
+          "title": "IncenseHub editorial definition — material taxonomy (no external citation).",
           "url": "https://data.incensehub.org/materials/",
           "accessed": "2026-09-28",
           "evidenceLevel": "Tier 6 — Editorial synthesis"
@@ -426,7 +426,7 @@
       "sources": [
         {
           "type": "editorial_interpretation",
-          "title": "LanDeng editorial definition — material taxonomy (no external citation).",
+          "title": "IncenseHub editorial definition — material taxonomy (no external citation).",
           "url": "https://data.incensehub.org/materials/",
           "accessed": "2026-09-28",
           "evidenceLevel": "Tier 6 — Editorial synthesis"
@@ -458,7 +458,7 @@
       "sources": [
         {
           "type": "editorial_interpretation",
-          "title": "LanDeng editorial definition — material taxonomy (no external citation).",
+          "title": "IncenseHub editorial definition — material taxonomy (no external citation).",
           "url": "https://data.incensehub.org/materials/",
           "accessed": "2026-09-28",
           "evidenceLevel": "Tier 6 — Editorial synthesis"
@@ -500,7 +500,7 @@
       "sources": [
         {
           "type": "editorial_interpretation",
-          "title": "LanDeng editorial definition — material taxonomy (no external citation).",
+          "title": "IncenseHub editorial definition — material taxonomy (no external citation).",
           "url": "https://data.incensehub.org/materials/",
           "accessed": "2026-09-28",
           "evidenceLevel": "Tier 6 — Editorial synthesis"
@@ -552,7 +552,7 @@
       "sources": [
         {
           "type": "editorial_interpretation",
-          "title": "LanDeng editorial definition — material taxonomy (no external citation).",
+          "title": "IncenseHub editorial definition — material taxonomy (no external citation).",
           "url": "https://data.incensehub.org/materials/",
           "accessed": "2026-09-28",
           "evidenceLevel": "Tier 6 — Editorial synthesis"
@@ -608,7 +608,7 @@
       "sources": [
         {
           "type": "editorial_interpretation",
-          "title": "LanDeng editorial definition — material taxonomy (no external citation).",
+          "title": "IncenseHub editorial definition — material taxonomy (no external citation).",
           "url": "https://data.incensehub.org/materials/",
           "accessed": "2026-09-28",
           "evidenceLevel": "Tier 6 — Editorial synthesis"

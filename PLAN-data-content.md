@@ -2,7 +2,7 @@
 
 > 版本：2026-11-04
 > 主站仓库：`/root/.openclaw/workspace/repos/incensehub.org`
-> 数据站仓库：`/root/.openclaw/workspace/repos/data-landeng`（GitHub: `martinxionbiotech-max/data-landeng`）
+> 数据站仓库：`incensehubdata`
 > 目标：把数据站做成“结构化事实 + 关系图 + 可下载数据”的参考层，主站继续做“叙事、指南、配方、历史、安全”的内容层。
 
 ---
@@ -15,7 +15,7 @@
 - `data/*.json` 有 8 个数据集镜像（ingredients / terminology / relationships / comparisons / materials / forms / techniques / aroma）
 - `/data/*` 有 4 条 301，指向 `data.incensehub.org`
 
-### 1.2 数据站（data-landeng）
+### 1.2 数据站（IncenseHub Data）
 - MkDocs 静态站，8 个数据集：
   - ingredients 150
   - terminology 249
@@ -148,7 +148,7 @@
 1. **域名统一**：`data.incensehub.org` 解析到数据站；旧 `data.incensehub.org` 301 到新域名
 2. **全站替换旧域名**：`mkdocs.yml` 的 `site_url`、`scripts/generate-entity-pages.py` 的 `SITE_URL`、`docs/**` 链接、CI allow-list、`mainEntityOfPage`
 3. **主站 `/data/*` 301 验证**：确保指向可解析的新域名
-4. **品牌统一**：LanDeng Open Datasets → IncenseHub Data；主站链接改为 `incensehub.org`
+4. **品牌统一**：IncenseHub Data → IncenseHub Data；主站链接改为 `incensehub.org`
 
 ### P1（数据站的核心增量）
 5. **249 条术语**：当前只有锚点索引；为字段足够的术语生成独立页，其余保留索引
