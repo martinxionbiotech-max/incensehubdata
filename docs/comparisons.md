@@ -1,0 +1,36 @@
+# Comparison Database
+
+17 comparison profiles — incense formats and classical materials — as `DefinedTerm` entities.
+
+Fields per entity: `termCode` · `name` · `alternateName` (Chinese, where applicable) · `description` · `additionalProperty` (Material / Aroma / Smoke / Burn characteristics / Traditional context / Common uses / Quality factors / Source).
+
+| termCode | Name | Category |
+|---|---|---|
+| incense-stick | Incense Stick (线香) | format |
+| incense-cone | Incense Cone | format |
+| backflow-cone | Backflow Cone (倒流香) | format |
+| incense-coil | Incense Coil (盘香) | format |
+| aromatherapy-beads | Aromatherapy Beads | format |
+| incense-powder | Incense Powder (香粉) | material / format |
+| wood-chips | Wood Chips (木片) | material |
+| incense-resin | Incense Resin (树脂) | material / format |
+| agarwood | Agarwood (沉香) | material |
+| sandalwood | Sandalwood (檀香) | material |
+| frankincense | Frankincense (乳香) | material |
+| borneol | Borneol (龙脑) | material |
+| benzoin | Benzoin (安息香) | material |
+| myrrh | Myrrh (没药) | material |
+| clove | Clove (丁香) | material |
+| incense-pill | Incense Pill (香丸) | format |
+| seal-incense | Seal Incense (香篆) | format |
+
+[Download the JSON](https://data.incensehub.org/datasets/comparisons.json) · [Download CSV](https://data.incensehub.org/downloads/comparisons.csv)
+
+Context on the main site: [https://incensehub.org/blog/incense-material-comparison-matrix/](https://incensehub.org/blog/incense-material-comparison-matrix/)
+
+## Data governance
+
+- **Last updated:** <!-- AUTO:counts:date-comparisons -->2026-09-28<!-- /AUTO:counts:date-comparisons -->
+- **License:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- **Version:** <!-- AUTO:counts:version-comparisons -->1.2<!-- /AUTO:counts:version-comparisons -->
+- **Sources:** source citations are tagged with an `evidenceLevel` (Evidence Tier).

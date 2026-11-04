@@ -1,0 +1,23 @@
+# LanDeng Open Datasets
+
+**Main site:** [incensehub.org](https://incensehub.org) — the LanDeng knowledge platform. Browse the [ingredient encyclopedia](https://incensehub.org/ingredients/), the [Chinese incense guide](https://incensehub.org/chinese-incense/), and the [ingredient encyclopedia index](https://incensehub.org/ingredients/).
+
+Machine-readable, link-worthy knowledge datasets for the LanDeng (澜灯) platform — Chinese botanical incense, documented in English with source transparency.
+
+<!-- AUTO:counts:index-table -->
+| Dataset | File | Status |
+|---|---|---|
+| Ingredient database | [datasets/ingredients.json](https://data.incensehub.org/datasets/ingredients.json) | live (150 entities) |
+| Terminology database | [datasets/terminology.json](https://data.incensehub.org/datasets/terminology.json) | live (249 terms, CC BY-SA 4.0) |
+| Aroma database | [datasets/aroma.json](https://data.incensehub.org/datasets/aroma.json) | live (10 aroma families) |
+| Material database | [datasets/materials.json](https://data.incensehub.org/datasets/materials.json) | live (15 entities) |
+| Comparison database | [datasets/comparisons.json](https://data.incensehub.org/datasets/comparisons.json) | live (17 profiles) |
+| Technique database | [datasets/techniques.json](https://data.incensehub.org/datasets/techniques.json) | live (12 techniques) |
+| Form database | [datasets/forms.json](https://data.incensehub.org/datasets/forms.json) | live (12 forms) |
+<!-- /AUTO:counts:index-table -->
+
+All datasets use Schema.org `Dataset` + `DefinedTerm` structures. See [Format & Governance](format.md).
+
+## Publisher
+
+LanDeng is a brand operated by **Zhangjiakou Landeng Technology Co., Ltd.** (张家口澜灯科技有限公司), USCC 91130702MAKM4QXH5Q. Email: landengltd@gmail.com · Phone / WhatsApp / WeChat: +86 13323237275.

@@ -1,0 +1,31 @@
+# Form Database
+
+12 Chinese incense forms — sticks, coils, cones, powder, pills, beads, and prepared low-smoke / smokeless categories — as `DefinedTerm` entities.
+
+Fields per entity: `termCode` · `name` · `alternateName` (Chinese, pinyin) · `description` · `additionalProperty` (Form / Construction / Burn time / Intensity / Use case) · `sources` (Source Objects, where a source page exists).
+
+| termCode | Name | Form |
+|---|---|---|
+| stick | Incense Stick (线香) | stick |
+| coil | Incense Coil (盘香) | coil |
+| cone | Incense Cone (塔香) | cone / tower |
+| backflow-cone | Backflow Cone (倒流香) | backflow cone |
+| powder | Incense Powder (香粉) | powder |
+| pill | Incense Pill (香丸) | pill / pellet |
+| cake | Incense Cake (香饼) | cake (unverified) |
+| plaque | Incense Plaque (香牌) | plaque (unverified) |
+| bead | Incense Bead (香珠) | bead / aromatherapy bead |
+| bamboo-core-stick | Bamboo-Core Stick (竹签香) | bamboo-core stick |
+| low-smoke | Low-Smoke Incense (微烟香) | low-smoke |
+| smokeless | Smokeless Incense (无烟香) | smokeless |
+
+[Download the JSON](https://data.incensehub.org/datasets/forms.json) · [Download CSV](https://data.incensehub.org/downloads/forms.csv)
+
+Context on the main site: [https://incensehub.org/blog/which-incense-format/](https://incensehub.org/blog/which-incense-format/)
+
+## Data governance
+
+- **Last updated:** <!-- AUTO:counts:date-forms -->2026-09-28<!-- /AUTO:counts:date-forms -->
+- **License:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- **Version:** <!-- AUTO:counts:version-forms -->1.2<!-- /AUTO:counts:version-forms -->
+- **Sources:** source citations are tagged with an `evidenceLevel` (Evidence Tier).

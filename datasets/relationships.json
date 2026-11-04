@@ -1,0 +1,5915 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://data.incensehub.org/datasets/relationships.json",
+  "name": "LanDeng Incense Entity Relationship Database",
+  "description": "Derived relationships between the 150 botanical incense ingredient entities and the aroma, form, technique, comparison, category and ingredient entities across the LanDeng open datasets. Derived edges come from the seven source datasets; related-material edges are mirrored from the editorial links on the main-site ingredient encyclopedia. No new fact is introduced.",
+  "url": "https://data.incensehub.org/datasets/relationships.json",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://incensehub.org/#organization",
+    "name": "Zhangjiakou Landeng Technology Co., Ltd."
+  },
+  "dateModified": "2026-09-28",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "version": "1.2",
+  "changelog": "1.2 — Added 356 directed related-material edges (type: related) mirroring the editorial 'related ingredients' links on the main-site ingredient encyclopedia (incensehub.org/ingredients/). Targets are ingredient termCodes only; no new fact is introduced — the relationships already exist on the main site.",
+  "inLanguage": [
+    "en",
+    "zh"
+  ],
+  "isAccessibleForFree": true,
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "application/json",
+    "contentUrl": "https://data.incensehub.org/datasets/relationships.json"
+  },
+  "mainEntity": [
+    {
+      "@type": "DefinedTerm",
+      "termCode": "agarwood",
+      "name": "Agarwood",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Woods",
+          "name": "Woods",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "resinous",
+          "name": "Resinous",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "comparison",
+          "termCode": "agarwood",
+          "name": "Agarwood",
+          "inDataset": "comparisons.json"
+        },
+        {
+          "type": "technique",
+          "termCode": "indirect-fire",
+          "name": "Indirect-Fire Incense",
+          "inDataset": "techniques.json"
+        },
+        {
+          "type": "technique",
+          "termCode": "incense-appreciation",
+          "name": "Incense Appreciation",
+          "inDataset": "techniques.json"
+        },
+        {
+          "type": "technique",
+          "termCode": "incense-ceremony",
+          "name": "Incense Ceremony",
+          "inDataset": "techniques.json"
+        },
+        {
+          "type": "technique",
+          "termCode": "single-material",
+          "name": "Single-Material Appreciation",
+          "inDataset": "techniques.json"
+        },
+        {
+          "type": "related",
+          "termCode": "sandalwood",
+          "name": "Sandalwood",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "frankincense",
+          "name": "Frankincense",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "benzoin",
+      "name": "Benzoin",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Resins",
+          "name": "Resins",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "balsamic",
+          "name": "Balsamic",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "comparison",
+          "termCode": "benzoin",
+          "name": "Benzoin",
+          "inDataset": "comparisons.json"
+        },
+        {
+          "type": "related",
+          "termCode": "frankincense",
+          "name": "Frankincense",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "myrrh",
+          "name": "Myrrh",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "cedar",
+      "name": "Cedar",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Woods",
+          "name": "Woods",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "vetiver",
+          "name": "Vetiver",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "patchouli",
+          "name": "Patchouli",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "chrysanthemum",
+      "name": "Chrysanthemum",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "mugwort",
+          "name": "Mugwort",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "jasmine",
+          "name": "Jasmine",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "cinnamon",
+      "name": "Cinnamon",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Spices",
+          "name": "Spices",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "clove",
+          "name": "Clove",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "orange-peel",
+          "name": "Orange Peel / Chenpi",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "clove",
+      "name": "Clove",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Spices",
+          "name": "Spices",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "comparison",
+          "termCode": "clove",
+          "name": "Clove",
+          "inDataset": "comparisons.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cinnamon",
+          "name": "Cinnamon",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cardamom",
+          "name": "Cardamom",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "frankincense",
+      "name": "Frankincense",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Resins",
+          "name": "Resins",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "resinous",
+          "name": "Resinous",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "citrus",
+          "name": "Citrus",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "earthy",
+          "name": "Earthy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "comparison",
+          "termCode": "frankincense",
+          "name": "Frankincense",
+          "inDataset": "comparisons.json"
+        },
+        {
+          "type": "related",
+          "termCode": "myrrh",
+          "name": "Myrrh",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "agarwood",
+          "name": "Agarwood",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "jasmine",
+      "name": "Jasmine",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "technique",
+          "termCode": "pill-forming",
+          "name": "Pill Forming",
+          "inDataset": "techniques.json"
+        },
+        {
+          "type": "related",
+          "termCode": "rose",
+          "name": "Rose",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "osmanthus",
+          "name": "Osmanthus",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "mugwort",
+      "name": "Mugwort",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "chrysanthemum",
+          "name": "Chrysanthemum",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "artemisia-annua",
+          "name": "Sweet Wormwood",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "myrrh",
+      "name": "Myrrh",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Resins",
+          "name": "Resins",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "balsamic",
+          "name": "Balsamic",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "earthy",
+          "name": "Earthy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "comparison",
+          "termCode": "myrrh",
+          "name": "Myrrh",
+          "inDataset": "comparisons.json"
+        },
+        {
+          "type": "related",
+          "termCode": "frankincense",
+          "name": "Frankincense",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "benzoin",
+          "name": "Benzoin",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "orange-peel",
+      "name": "Orange Peel / Chenpi",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Peels",
+          "name": "Peels",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "citrus",
+          "name": "Citrus",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cinnamon",
+          "name": "Cinnamon",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "pomelo-peel",
+          "name": "Pomelo Peel",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "osmanthus",
+      "name": "Osmanthus",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "jasmine",
+          "name": "Jasmine",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "rose",
+          "name": "Rose",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "patchouli",
+      "name": "Patchouli",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "earthy",
+          "name": "Earthy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "balsamic",
+          "name": "Balsamic",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "vetiver",
+          "name": "Vetiver",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cedar",
+          "name": "Cedar",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "rose",
+      "name": "Rose",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "jasmine",
+          "name": "Jasmine",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "osmanthus",
+          "name": "Osmanthus",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "sandalwood",
+      "name": "Sandalwood",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Woods",
+          "name": "Woods",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "comparison",
+          "termCode": "sandalwood",
+          "name": "Sandalwood",
+          "inDataset": "comparisons.json"
+        },
+        {
+          "type": "technique",
+          "termCode": "indirect-fire",
+          "name": "Indirect-Fire Incense",
+          "inDataset": "techniques.json"
+        },
+        {
+          "type": "technique",
+          "termCode": "incense-appreciation",
+          "name": "Incense Appreciation",
+          "inDataset": "techniques.json"
+        },
+        {
+          "type": "technique",
+          "termCode": "single-material",
+          "name": "Single-Material Appreciation",
+          "inDataset": "techniques.json"
+        },
+        {
+          "type": "related",
+          "termCode": "agarwood",
+          "name": "Agarwood",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "vetiver",
+          "name": "Vetiver",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "vetiver",
+      "name": "Vetiver",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Roots",
+          "name": "Roots",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "earthy",
+          "name": "Earthy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "smoky",
+          "name": "Smoky",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cedar",
+          "name": "Cedar",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "patchouli",
+          "name": "Patchouli",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "sandalwood",
+          "name": "Sandalwood",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "borneol",
+      "name": "Borneol",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Resins",
+          "name": "Resins",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "comparison",
+          "termCode": "borneol",
+          "name": "Borneol",
+          "inDataset": "comparisons.json"
+        },
+        {
+          "type": "related",
+          "termCode": "sweetgum",
+          "name": "Sweetgum",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "pine-resin",
+          "name": "Pine Resin",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "pine-resin",
+      "name": "Pine Resin",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Resins",
+          "name": "Resins",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "balsamic",
+          "name": "Balsamic",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "resinous",
+          "name": "Resinous",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cedar",
+          "name": "Cedar",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "borneol",
+          "name": "Borneol",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "angelica",
+      "name": "Angelica",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Roots",
+          "name": "Roots",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "calamus",
+          "name": "Calamus",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "mugwort",
+          "name": "Mugwort",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "calamus",
+      "name": "Calamus",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "earthy",
+          "name": "Earthy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "angelica",
+          "name": "Angelica",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "mugwort",
+          "name": "Mugwort",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "sweetgum",
+      "name": "Sweetgum",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Resins",
+          "name": "Resins",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "balsamic",
+          "name": "Balsamic",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "resinous",
+          "name": "Resinous",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "benzoin",
+          "name": "Benzoin",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "borneol",
+          "name": "Borneol",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "ambergris",
+      "name": "Ambergris",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Animal-derived",
+          "name": "Animal-derived",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "earthy",
+          "name": "Earthy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "sandalwood",
+          "name": "Sandalwood",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "agarwood",
+          "name": "Agarwood",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "agastache-rugosa",
+      "name": "Agastache",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "patchouli",
+          "name": "Patchouli",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "mugwort",
+          "name": "Mugwort",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "atractylodes",
+      "name": "Atractylodes",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Roots",
+          "name": "Roots",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "earthy",
+          "name": "Earthy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "mugwort",
+          "name": "Mugwort",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "angelica",
+          "name": "Angelica",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "borneol-oil",
+      "name": "Borneol Oil",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Resins",
+          "name": "Resins",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "balsamic",
+          "name": "Balsamic",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "borneol",
+          "name": "Borneol",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "pine-resin",
+          "name": "Pine Resin",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "cardamom",
+      "name": "Cardamom",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Spices",
+          "name": "Spices",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "clove",
+          "name": "Clove",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cinnamon",
+          "name": "Cinnamon",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "cyperus",
+      "name": "Cyperus",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Roots",
+          "name": "Roots",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "earthy",
+          "name": "Earthy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "smoky",
+          "name": "Smoky",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "vetiver",
+          "name": "Vetiver",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "calamus",
+          "name": "Calamus",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "jiangzhenxiang",
+      "name": "Jiangzhenxiang",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Woods",
+          "name": "Woods",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "resinous",
+          "name": "Resinous",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "agarwood",
+          "name": "Agarwood",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "sandalwood",
+          "name": "Sandalwood",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "linglingxiang",
+      "name": "Linglingxiang",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "patchouli",
+          "name": "Patchouli",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "agastache-rugosa",
+          "name": "Agastache",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "orris-root",
+      "name": "Orris Root",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Roots",
+          "name": "Roots",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "vetiver",
+          "name": "Vetiver",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "sandalwood",
+          "name": "Sandalwood",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "plum-blossom",
+      "name": "Plum Blossom",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "osmanthus",
+          "name": "Osmanthus",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "chrysanthemum",
+          "name": "Chrysanthemum",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "spikenard-nardostachys",
+      "name": "Spikenard",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Roots",
+          "name": "Roots",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "earthy",
+          "name": "Earthy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "sandalwood",
+          "name": "Sandalwood",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "vetiver",
+          "name": "Vetiver",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "star-anise",
+      "name": "Star Anise",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Spices",
+          "name": "Spices",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cinnamon",
+          "name": "Cinnamon",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "clove",
+          "name": "Clove",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "styrax-resin",
+      "name": "Storax",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Resins",
+          "name": "Resins",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "balsamic",
+          "name": "Balsamic",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "resinous",
+          "name": "Resinous",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "sweetgum",
+          "name": "Sweetgum",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "benzoin",
+          "name": "Benzoin",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "red-sandalwood",
+      "name": "Red Sandalwood",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Woods",
+          "name": "Woods",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "sandalwood",
+          "name": "Sandalwood",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "jiangzhenxiang",
+          "name": "Jiangzhenxiang",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "camphor",
+      "name": "Camphor",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Woods",
+          "name": "Woods",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "borneol",
+          "name": "Borneol",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cinnamon",
+          "name": "Cinnamon",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "fennel",
+      "name": "Fennel",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Spices",
+          "name": "Spices",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "star-anise",
+          "name": "Star Anise",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "clove",
+          "name": "Clove",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "eupatorium",
+      "name": "Eupatorium",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "mugwort",
+          "name": "Mugwort",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "agastache-rugosa",
+          "name": "Agastache",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "ligusticum",
+      "name": "Ligusticum",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "spikenard-nardostachys",
+          "name": "Spikenard",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "angelica",
+          "name": "Angelica",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "citronella",
+      "name": "Citronella",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "patchouli",
+          "name": "Patchouli",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "agastache-rugosa",
+          "name": "Agastache",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "gardenia",
+      "name": "Gardenia",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "jasmine",
+          "name": "Jasmine",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "osmanthus",
+          "name": "Osmanthus",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "champaca",
+      "name": "Champaca",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "jasmine",
+          "name": "Jasmine",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "gardenia",
+          "name": "Gardenia",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "nutmeg",
+      "name": "Nutmeg",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Spices",
+          "name": "Spices",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "clove",
+          "name": "Clove",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cardamom",
+          "name": "Cardamom",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "sand-ginger",
+      "name": "Sand Ginger",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Spices",
+          "name": "Spices",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "earthy",
+          "name": "Earthy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cardamom",
+          "name": "Cardamom",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "clove",
+          "name": "Clove",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "costus",
+      "name": "Costus",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Roots",
+          "name": "Roots",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "earthy",
+          "name": "Earthy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "spikenard-nardostachys",
+          "name": "Spikenard",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "orris-root",
+          "name": "Orris Root",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "cypress-seed",
+      "name": "Cypress Seed",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Seeds",
+          "name": "Seeds",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "resinous",
+          "name": "Resinous",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "pine-resin",
+          "name": "Pine Resin",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cedar",
+          "name": "Cedar",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "musk",
+      "name": "Musk",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Animal-derived",
+          "name": "Animal-derived",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "ambergris",
+          "name": "Ambergris",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "sandalwood",
+          "name": "Sandalwood",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "onycha",
+      "name": "Onycha",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Animal-derived",
+          "name": "Animal-derived",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "musk",
+          "name": "Musk",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "ambergris",
+          "name": "Ambergris",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "lotus-flower",
+      "name": "Lotus Flower",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "plum-blossom",
+          "name": "Plum Blossom",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "osmanthus",
+          "name": "Osmanthus",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "cubeb",
+      "name": "Cubeb",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Spices",
+          "name": "Spices",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "long-pepper",
+          "name": "Long Pepper",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "clove",
+          "name": "Clove",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "long-pepper",
+      "name": "Long Pepper",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Spices",
+          "name": "Spices",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cubeb",
+          "name": "Cubeb",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "clove",
+          "name": "Clove",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "coriander-seed",
+      "name": "Coriander Seed",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Seeds",
+          "name": "Seeds",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "citrus",
+          "name": "Citrus",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "fennel",
+          "name": "Fennel",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "orange-peel",
+          "name": "Orange Peel / Chenpi",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "litchi-husk",
+      "name": "Litchi Husk",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Peels",
+          "name": "Peels",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "orange-peel",
+          "name": "Orange Peel / Chenpi",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "osmanthus",
+          "name": "Osmanthus",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "galangal",
+      "name": "Galangal",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Roots",
+          "name": "Roots",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "sand-ginger",
+          "name": "Sand Ginger",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cardamom",
+          "name": "Cardamom",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "dragons-blood",
+      "name": "Dragon's Blood",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Resins",
+          "name": "Resins",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "resinous",
+          "name": "Resinous",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "balsamic",
+          "name": "Balsamic",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "myrrh",
+          "name": "Myrrh",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "red-sandalwood",
+          "name": "Red Sandalwood",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "paicao",
+      "name": "Paicao",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "linglingxiang",
+          "name": "Linglingxiang",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "agastache-rugosa",
+          "name": "Agastache",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "rue",
+      "name": "Rue",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "mugwort",
+          "name": "Mugwort",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "citronella",
+          "name": "Citronella",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "bletilla",
+      "name": "Bletilla",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Roots",
+          "name": "Roots",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "earthy",
+          "name": "Earthy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "sandalwood",
+          "name": "Sandalwood",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "agarwood",
+          "name": "Agarwood",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "civet",
+      "name": "Civet",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Animal-derived",
+          "name": "Animal-derived",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "musk",
+          "name": "Musk",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "ambergris",
+          "name": "Ambergris",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "pepper",
+      "name": "Pepper",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Spices",
+          "name": "Spices",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "long-pepper",
+          "name": "Long Pepper",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cubeb",
+          "name": "Cubeb",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "clove",
+          "name": "Clove",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "ginger",
+      "name": "Dried Ginger",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Spices",
+          "name": "Spices",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "galangal",
+          "name": "Galangal",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "sand-ginger",
+          "name": "Sand Ginger",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cinnamon",
+          "name": "Cinnamon",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "magnolia-flower",
+      "name": "Magnolia Flower",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "plum-blossom",
+          "name": "Plum Blossom",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "champaca",
+          "name": "Champaca",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "gardenia",
+          "name": "Gardenia",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "wintersweet",
+      "name": "Wintersweet",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "plum-blossom",
+          "name": "Plum Blossom",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "osmanthus",
+          "name": "Osmanthus",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "magnolia-flower",
+          "name": "Magnolia Flower",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "turmeric",
+      "name": "Turmeric",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Roots",
+          "name": "Roots",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "earthy",
+          "name": "Earthy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "galangal",
+          "name": "Galangal",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "sand-ginger",
+          "name": "Sand Ginger",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "ginger",
+          "name": "Dried Ginger",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "labdanum",
+      "name": "Labdanum",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Resins",
+          "name": "Resins",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "resinous",
+          "name": "Resinous",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "balsamic",
+          "name": "Balsamic",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "frankincense",
+          "name": "Frankincense",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "myrrh",
+          "name": "Myrrh",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "benzoin",
+          "name": "Benzoin",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "mastic",
+      "name": "Mastic",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Resins",
+          "name": "Resins",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "resinous",
+          "name": "Resinous",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "balsamic",
+          "name": "Balsamic",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "frankincense",
+          "name": "Frankincense",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "pine-resin",
+          "name": "Pine Resin",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "myrrh",
+          "name": "Myrrh",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "asafoetida",
+      "name": "Asafoetida",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Resins",
+          "name": "Resins",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "resinous",
+          "name": "Resinous",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "galangal",
+          "name": "Galangal",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "frankincense",
+          "name": "Frankincense",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "costus",
+          "name": "Costus",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "perilla",
+      "name": "Perilla",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "mint",
+          "name": "Mint",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "agastache-rugosa",
+          "name": "Agastache",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "mugwort",
+          "name": "Mugwort",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "mint",
+      "name": "Mint",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "perilla",
+          "name": "Perilla",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "agastache-rugosa",
+          "name": "Agastache",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "citronella",
+          "name": "Citronella",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "pomelo-peel",
+      "name": "Pomelo Peel",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Peels",
+          "name": "Peels",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "citrus",
+          "name": "Citrus",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "orange-peel",
+          "name": "Orange Peel / Chenpi",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "litchi-husk",
+          "name": "Litchi Husk",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cinnamon",
+          "name": "Cinnamon",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "thuja",
+      "name": "Thuja",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Woods",
+          "name": "Woods",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "resinous",
+          "name": "Resinous",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cedar",
+          "name": "Cedar",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cypress-seed",
+          "name": "Cypress Seed",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "pine-resin",
+          "name": "Pine Resin",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "banksia-rose",
+      "name": "Banksia Rose",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "costus",
+          "name": "Costus",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "rose",
+          "name": "Rose",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "jasmine-grandiflorum",
+      "name": "Spanish Jasmine",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "jasmine",
+          "name": "Jasmine",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "osmanthus",
+          "name": "Osmanthus",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "yulan-magnolia",
+      "name": "Yulan Magnolia",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "magnolia-flower",
+          "name": "Magnolia Flower",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "champaca",
+          "name": "Champaca",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "honeysuckle",
+      "name": "Honeysuckle",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "chrysanthemum",
+          "name": "Chrysanthemum",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "plum-blossom",
+          "name": "Plum Blossom",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "amomum-villosum",
+      "name": "Amomum villosum",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Spices",
+          "name": "Spices",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cardamom",
+          "name": "Cardamom",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "tsao-ko",
+          "name": "Tsaoko",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "galangal",
+          "name": "Galangal",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "tsao-ko",
+      "name": "Tsaoko",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Spices",
+          "name": "Spices",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "smoky",
+          "name": "Smoky",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cardamom",
+          "name": "Cardamom",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "amomum-villosum",
+          "name": "Amomum villosum",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "galangal",
+          "name": "Galangal",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "galbanum",
+      "name": "Galbanum",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Resins",
+          "name": "Resins",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "balsamic",
+          "name": "Balsamic",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "earthy",
+          "name": "Earthy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "asafoetida",
+          "name": "Asafoetida",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "frankincense",
+          "name": "Frankincense",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "bay-leaf",
+      "name": "Bay Leaf",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cinnamon",
+          "name": "Cinnamon",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "rosemary",
+          "name": "Rosemary",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "rosemary",
+      "name": "Rosemary",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "bay-leaf",
+          "name": "Bay Leaf",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "mint",
+          "name": "Mint",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "finger-citron",
+      "name": "Finger Citron",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Fruits",
+          "name": "Fruits",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "citrus",
+          "name": "Citrus",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "citron",
+          "name": "Citron",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "orange-peel",
+          "name": "Orange Peel / Chenpi",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "citron",
+      "name": "Citron",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Fruits",
+          "name": "Fruits",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "citrus",
+          "name": "Citrus",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "finger-citron",
+          "name": "Finger Citron",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "orange-peel",
+          "name": "Orange Peel / Chenpi",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "licorice",
+      "name": "Licorice",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Roots",
+          "name": "Roots",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "earthy",
+          "name": "Earthy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "spikenard-nardostachys",
+          "name": "Spikenard",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "galangal",
+          "name": "Galangal",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "honey",
+      "name": "Honey",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Animal-derived",
+          "name": "Animal-derived",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "musk",
+          "name": "Musk",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "ambergris",
+          "name": "Ambergris",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "aromatic-turmeric",
+      "name": "Aromatic Turmeric",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Roots",
+          "name": "Roots",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "earthy",
+          "name": "Earthy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "turmeric",
+          "name": "Turmeric",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "zedoary",
+          "name": "Zedoary",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "zedoary",
+      "name": "Zedoary",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Roots",
+          "name": "Roots",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "earthy",
+          "name": "Earthy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "turmeric",
+          "name": "Turmeric",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "aromatic-turmeric",
+          "name": "Aromatic Turmeric",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "orchid",
+      "name": "Orchid",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "osmanthus",
+          "name": "Osmanthus",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "chrysanthemum",
+          "name": "Chrysanthemum",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "daphne",
+      "name": "Daphne",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "technique",
+          "termCode": "flower-scenting",
+          "name": "Flower-Scenting",
+          "inDataset": "techniques.json"
+        },
+        {
+          "type": "related",
+          "termCode": "wintersweet",
+          "name": "Wintersweet",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "plum-blossom",
+          "name": "Plum Blossom",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "michelia-figo",
+      "name": "Banana Shrub",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "champaca",
+          "name": "Champaca",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "yulan-magnolia",
+          "name": "Yulan Magnolia",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "katsumadai",
+      "name": "Katsumadai",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Spices",
+          "name": "Spices",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cardamom",
+          "name": "Cardamom",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "amomum-villosum",
+          "name": "Amomum villosum",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "oxyphylla",
+      "name": "Sharp-Leaf Galangal",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Spices",
+          "name": "Spices",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "galangal",
+          "name": "Galangal",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "katsumadai",
+          "name": "Katsumadai",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "prickly-ash",
+      "name": "Sichuan Pepper",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Spices",
+          "name": "Spices",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "citrus",
+          "name": "Citrus",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "pepper",
+          "name": "Pepper",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "long-pepper",
+          "name": "Long Pepper",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "litsea-cubeba",
+      "name": "Mountain Pepper",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Fruits",
+          "name": "Fruits",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "citrus",
+          "name": "Citrus",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cubeb",
+          "name": "Cubeb",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "citronella",
+          "name": "Citronella",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "amber",
+      "name": "Amber",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Resins",
+          "name": "Resins",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "resinous",
+          "name": "Resinous",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "balsamic",
+          "name": "Balsamic",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "pine-resin",
+          "name": "Pine Resin",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "styrax-resin",
+          "name": "Storax",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "juniper",
+      "name": "Juniper",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Woods",
+          "name": "Woods",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "resinous",
+          "name": "Resinous",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cedar",
+          "name": "Cedar",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "thuja",
+          "name": "Thuja",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "basil",
+      "name": "Basil",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "perilla",
+          "name": "Perilla",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "mint",
+          "name": "Mint",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "elsholtzia",
+      "name": "Elsholtzia",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "agastache-rugosa",
+          "name": "Agastache",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "perilla",
+          "name": "Perilla",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "aglaia",
+      "name": "Aglaia",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "michelia-figo",
+          "name": "Banana Shrub",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "champaca",
+          "name": "Champaca",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "peony",
+      "name": "Peony",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "rose",
+          "name": "Rose",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "plum-blossom",
+          "name": "Plum Blossom",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "anise",
+      "name": "Anise",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Spices",
+          "name": "Spices",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "fennel",
+          "name": "Fennel",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "star-anise",
+          "name": "Star Anise",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "cumin",
+      "name": "Cumin",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Spices",
+          "name": "Spices",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "earthy",
+          "name": "Earthy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "coriander-seed",
+          "name": "Coriander Seed",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "fennel",
+          "name": "Fennel",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "shellac",
+      "name": "Shellac",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Resins",
+          "name": "Resins",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "resinous",
+          "name": "Resinous",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "dragons-blood",
+          "name": "Dragon's Blood",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "benzoin",
+          "name": "Benzoin",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "beeswax",
+      "name": "Beeswax",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Animal-derived",
+          "name": "Animal-derived",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "honey",
+          "name": "Honey",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "musk",
+          "name": "Musk",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "torreya",
+      "name": "Torreya",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Seeds",
+          "name": "Seeds",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "resinous",
+          "name": "Resinous",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cypress-seed",
+          "name": "Cypress Seed",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "pine-resin",
+          "name": "Pine Resin",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "kumquat",
+      "name": "Kumquat",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Fruits",
+          "name": "Fruits",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "citrus",
+          "name": "Citrus",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "citron",
+          "name": "Citron",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "finger-citron",
+          "name": "Finger Citron",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "castoreum",
+      "name": "Castoreum",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Animal-derived",
+          "name": "Animal-derived",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "smoky",
+          "name": "Smoky",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "civet",
+          "name": "Civet",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "musk",
+          "name": "Musk",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "blumea-balsamifera",
+      "name": "Blumea Balsamifera",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "borneol",
+          "name": "Borneol",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "borneol-oil",
+          "name": "Borneol Oil",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "camphor",
+          "name": "Camphor",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "tuberose",
+      "name": "Tuberose",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "jasmine",
+          "name": "Jasmine",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "jasmine-grandiflorum",
+          "name": "Spanish Jasmine",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "osmanthus",
+          "name": "Osmanthus",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "dill",
+      "name": "Dill",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Spices",
+          "name": "Spices",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "fennel",
+          "name": "Fennel",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cumin",
+          "name": "Cumin",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "coriander-seed",
+          "name": "Coriander Seed",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "mustard",
+      "name": "Mustard Seed",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Spices",
+          "name": "Spices",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "pepper",
+          "name": "Pepper",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cinnamon",
+          "name": "Cinnamon",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "ginger",
+          "name": "Dried Ginger",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "apricot-kernel",
+      "name": "Apricot Kernel",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Seeds",
+          "name": "Seeds",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "plum-blossom",
+          "name": "Plum Blossom",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "peony",
+          "name": "Peony",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "licorice",
+          "name": "Licorice",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "ginkgo",
+      "name": "Ginkgo Nut",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Seeds",
+          "name": "Seeds",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "torreya",
+          "name": "Torreya",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cypress-seed",
+          "name": "Cypress Seed",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "kumquat",
+          "name": "Kumquat",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "angelica-sinensis",
+      "name": "Dong Quai",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Roots",
+          "name": "Roots",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "technique",
+          "termCode": "sachet",
+          "name": "Scented Sachet",
+          "inDataset": "techniques.json"
+        },
+        {
+          "type": "related",
+          "termCode": "angelica",
+          "name": "Angelica",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "atractylodes",
+          "name": "Atractylodes",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "calamus",
+          "name": "Calamus",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "peru-balsam",
+      "name": "Peru Balsam",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Resins",
+          "name": "Resins",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "balsamic",
+          "name": "Balsamic",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "benzoin",
+          "name": "Benzoin",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "styrax-resin",
+          "name": "Storax",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "vanilla",
+          "name": "Vanilla Bean",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "quince",
+      "name": "Quince",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Fruits",
+          "name": "Fruits",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "kumquat",
+          "name": "Kumquat",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "citron",
+          "name": "Citron",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "finger-citron",
+          "name": "Finger Citron",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "platycladus-leaves",
+      "name": "Arborvitae Leaves",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cypress-seed",
+          "name": "Cypress Seed",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cedar",
+          "name": "Cedar",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "thuja",
+          "name": "Thuja",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "vanilla",
+      "name": "Vanilla Bean",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Fruits",
+          "name": "Fruits",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "benzoin",
+          "name": "Benzoin",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "peru-balsam",
+          "name": "Peru Balsam",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "labdanum",
+          "name": "Labdanum",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "silk-tree",
+      "name": "Silk Tree Flower",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "honeysuckle",
+          "name": "Honeysuckle",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "osmanthus",
+          "name": "Osmanthus",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "lotus-flower",
+          "name": "Lotus Flower",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "pine-needles",
+      "name": "Pine Needles",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "technique",
+          "termCode": "sachet",
+          "name": "Scented Sachet",
+          "inDataset": "techniques.json"
+        },
+        {
+          "type": "related",
+          "termCode": "pine-resin",
+          "name": "Pine Resin",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cedar",
+          "name": "Cedar",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "juniper",
+          "name": "Juniper",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "bamboo-leaves",
+      "name": "Bamboo Leaves",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "mulberry-leaf",
+          "name": "Mulberry Leaf",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "platycladus-leaves",
+          "name": "Arborvitae Leaves",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cypress-seed",
+          "name": "Cypress Seed",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "fenugreek",
+      "name": "Fenugreek",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Spices",
+          "name": "Spices",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cumin",
+          "name": "Cumin",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "fennel",
+          "name": "Fennel",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "coriander-seed",
+          "name": "Coriander Seed",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "ligusticum-chuanxiong",
+      "name": "Chuanxiong",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Roots",
+          "name": "Roots",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "ligusticum",
+          "name": "Ligusticum",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "angelica-sinensis",
+          "name": "Dong Quai",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "angelica",
+          "name": "Angelica",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "sophora-flower",
+      "name": "Sophora Flower",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "honeysuckle",
+          "name": "Honeysuckle",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "chrysanthemum",
+          "name": "Chrysanthemum",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "mulberry-leaf",
+          "name": "Mulberry Leaf",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "tree-peony",
+      "name": "Tree Peony",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "peony",
+          "name": "Peony",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "rose",
+          "name": "Rose",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "plum-blossom",
+          "name": "Plum Blossom",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "mulberry-leaf",
+      "name": "Mulberry Leaf",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "bamboo-leaves",
+          "name": "Bamboo Leaves",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "platycladus-leaves",
+          "name": "Arborvitae Leaves",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "sophora-flower",
+          "name": "Sophora Flower",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "artemisia-annua",
+      "name": "Sweet Wormwood",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "technique",
+          "termCode": "sachet",
+          "name": "Scented Sachet",
+          "inDataset": "techniques.json"
+        },
+        {
+          "type": "related",
+          "termCode": "mugwort",
+          "name": "Mugwort",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "agastache-rugosa",
+          "name": "Agastache",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "schizonepeta",
+          "name": "Schizonepeta",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "schizonepeta",
+      "name": "Schizonepeta",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "artemisia-annua",
+          "name": "Sweet Wormwood",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "agastache-rugosa",
+          "name": "Agastache",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "perilla",
+          "name": "Perilla",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "cassia-twig",
+      "name": "Cassia Twig",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Woods",
+          "name": "Woods",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "cinnamon",
+          "name": "Cinnamon",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "clove",
+          "name": "Clove",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "ginger",
+          "name": "Dried Ginger",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "bergamot",
+      "name": "Bergamot",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Fruits",
+          "name": "Fruits",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "citrus",
+          "name": "Citrus",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "finger-citron",
+          "name": "Finger Citron",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "citron",
+          "name": "Citron",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "neroli",
+          "name": "Neroli",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "neroli",
+      "name": "Neroli",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "citrus",
+          "name": "Citrus",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "bergamot",
+          "name": "Bergamot",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "orange-peel",
+          "name": "Orange Peel / Chenpi",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "jasmine",
+          "name": "Jasmine",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "valerian",
+      "name": "Valerian",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Roots",
+          "name": "Roots",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "earthy",
+          "name": "Earthy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "spikenard-nardostachys",
+          "name": "Spikenard",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "vetiver",
+          "name": "Vetiver",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "patchouli",
+          "name": "Patchouli",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "schisandra",
+      "name": "Schisandra",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Fruits",
+          "name": "Fruits",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "peony",
+          "name": "Peony",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "amomum-villosum",
+          "name": "Amomum villosum",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "licorice",
+          "name": "Licorice",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "asarum",
+      "name": "Asarum",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Roots",
+          "name": "Roots",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "technique",
+          "termCode": "sachet",
+          "name": "Scented Sachet",
+          "inDataset": "techniques.json"
+        },
+        {
+          "type": "related",
+          "termCode": "ligusticum",
+          "name": "Ligusticum",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "angelica",
+          "name": "Angelica",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "atractylodes",
+          "name": "Atractylodes",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "eupatorium-japonicum",
+      "name": "Zelan",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "eupatorium",
+          "name": "Eupatorium",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "agastache-rugosa",
+          "name": "Agastache",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "mugwort",
+          "name": "Mugwort",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "tree-peony-bark",
+      "name": "Tree Peony Bark",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Roots",
+          "name": "Roots",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "earthy",
+          "name": "Earthy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "tree-peony",
+          "name": "Tree Peony",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "peony",
+          "name": "Peony",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "orris-root",
+          "name": "Orris Root",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "lavender",
+      "name": "Lavender",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "rosemary",
+          "name": "Rosemary",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "bergamot",
+          "name": "Bergamot",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "chamomile",
+          "name": "Chamomile",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "sage",
+      "name": "Sage",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "rosemary",
+          "name": "Rosemary",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "thyme",
+          "name": "Thyme",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "basil",
+          "name": "Basil",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "thyme",
+      "name": "Thyme",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "spicy",
+          "name": "Spicy",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "rosemary",
+          "name": "Rosemary",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "sage",
+          "name": "Sage",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "bay-leaf",
+          "name": "Bay Leaf",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "chamomile",
+      "name": "Chamomile",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "lavender",
+          "name": "Lavender",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "rose",
+          "name": "Rose",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "bergamot",
+          "name": "Bergamot",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "ylang-ylang",
+      "name": "Ylang-Ylang",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "jasmine",
+          "name": "Jasmine",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "neroli",
+          "name": "Neroli",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "tuberose",
+          "name": "Tuberose",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "copaiba",
+      "name": "Copaiba",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Resins",
+          "name": "Resins",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "woody",
+          "name": "Woody",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "balsamic",
+          "name": "Balsamic",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "resinous",
+          "name": "Resinous",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "peru-balsam",
+          "name": "Peru Balsam",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "benzoin",
+          "name": "Benzoin",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "labdanum",
+          "name": "Labdanum",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "violet",
+      "name": "Violet",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "orris-root",
+          "name": "Orris Root",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "rose",
+          "name": "Rose",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "jasmine",
+          "name": "Jasmine",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "lemon",
+      "name": "Lemon",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Fruits",
+          "name": "Fruits",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "citrus",
+          "name": "Citrus",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "citron",
+          "name": "Citron",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "finger-citron",
+          "name": "Finger Citron",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "pomelo-peel",
+          "name": "Pomelo Peel",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "grapefruit",
+      "name": "Grapefruit",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Fruits",
+          "name": "Fruits",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "citrus",
+          "name": "Citrus",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "pomelo-peel",
+          "name": "Pomelo Peel",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "citron",
+          "name": "Citron",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "lemon",
+          "name": "Lemon",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "tarragon",
+      "name": "Tarragon",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "mugwort",
+          "name": "Mugwort",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "artemisia-annua",
+          "name": "Sweet Wormwood",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "spearmint",
+      "name": "Spearmint",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "mint",
+          "name": "Mint",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "peppermint",
+          "name": "Peppermint",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "peppermint",
+      "name": "Peppermint",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "mint",
+          "name": "Mint",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "spearmint",
+          "name": "Spearmint",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "eucalyptus",
+      "name": "Eucalyptus",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "camphor",
+          "name": "Camphor",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "rosemary",
+          "name": "Rosemary",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "pine-needles",
+          "name": "Pine Needles",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "lemon-balm",
+      "name": "Lemon Balm",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Herbs",
+          "name": "Herbs",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "herbal",
+          "name": "Herbal",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "mint",
+          "name": "Mint",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "basil",
+          "name": "Basil",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "bergamot",
+          "name": "Bergamot",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "termCode": "lily-of-the-valley",
+      "name": "Lily of the Valley",
+      "relatedEntity": [
+        {
+          "type": "category",
+          "termCode": "Flowers",
+          "name": "Flowers",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "floral",
+          "name": "Floral",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "aroma",
+          "termCode": "sweet",
+          "name": "Sweet",
+          "inDataset": "aroma.json"
+        },
+        {
+          "type": "related",
+          "termCode": "jasmine",
+          "name": "Jasmine",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "rose",
+          "name": "Rose",
+          "inDataset": "ingredients.json"
+        },
+        {
+          "type": "related",
+          "termCode": "orris-root",
+          "name": "Orris Root",
+          "inDataset": "ingredients.json"
+        }
+      ]
+    }
+  ]
+}
