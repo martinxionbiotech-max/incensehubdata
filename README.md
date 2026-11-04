@@ -1,6 +1,8 @@
-# data-landeng — LanDeng Open Datasets
+# IncenseHub Data
 
-Machine-readable, link-worthy knowledge datasets for the LanDeng (澜灯) platform — Chinese botanical incense, documented in English with source transparency.
+Canonical machine-readable datasets for IncenseHub — Chinese botanical incense, documented in English with source transparency.
+
+> **Canonical repository.** Supersedes `data-landeng` and `data.IncenseHub` (both deprecated).
 
 Per `ORIGINAL-DATA-ASSETS.md` (LanDeng main repo): every dataset must be accurate, traceable, structured, maintainable, reviewable. No sensitive or proprietary data.
 
