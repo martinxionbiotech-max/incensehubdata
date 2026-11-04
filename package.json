@@ -1,0 +1,7 @@
+{
+  "name": "incensehubdata",
+  "private": true,
+  "scripts": {
+    "build": "bash build.sh"
+  }
+}
