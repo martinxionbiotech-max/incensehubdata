@@ -20,4 +20,4 @@ All datasets use Schema.org `Dataset` + `DefinedTerm` structures. See [Format & 
 
 ## Publisher
 
-IncenseHub is a brand operated by **IncenseHub** (张家口IncenseHub科技有限公司), USCC 91130702MAKM4QXH5Q. Email: incensehubltd@gmail.com · Phone / WhatsApp / WeChat: +86 13323237275.
+IncenseHub Data is published by **Zhangjiakou Landeng Technology Co., Ltd.** (张家口澜灯科技有限公司), which operates the IncenseHub brand. USCC 91130702MAKM4QXH5Q. Email: landengltd@gmail.com · Phone / WhatsApp / WeChat: +86 13323237275. See [Operator & legal](operator.md) for the full company details.

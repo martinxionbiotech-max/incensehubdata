@@ -20,6 +20,7 @@ nav:
   - Form Database: forms.md
   - Relationships Database: relationships.md
   - Format & Governance: format.md
+  - Operator & Legal: operator.md
   - IncenseHub Main Site: https://incensehub.org
 markdown_extensions:
   - toc:
